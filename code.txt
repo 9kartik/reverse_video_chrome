@@ -1,0 +1,7 @@
+p=document.querySelector('video');
+function fn(){
+if(p.currentTime>0)
+p.currentTime=p.currentTime-.1}
+while(p.currentTime>0){
+setTimeout(fn(),1)};
+var myVar = setInterval(function(){ fn() }, 100);
